@@ -1,0 +1,32 @@
+.meme-gen {
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meme-gen img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.meme-gen .generate-meme-btn {
+    padding: 2px 10px;
+    border: 2px solid #222;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.meme-gen .generate-meme-btn:hover {
+    transition: all 100ms ease;
+    padding: 8px 10px;
+}
+
+.meme-gen .meme-author {
+    margin: 8px;
+}
