@@ -1,0 +1,94 @@
+body {
+    font-family: monospace, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 55%;
+    height: 50%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cont-input {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+textarea {
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    
+    font-family: monospace, sans-serif;
+    background-color: #52320d;
+    color: #fff;
+    font-size: 15px;
+
+    padding: 8px 7px;
+    margin: 10px auto;
+    margin-bottom: 8px;
+    display: block;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(131, 92, 44);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete {
+    color: #ff4d4d;
+    cursor: pointer;
+}
+
+/** media queries **/
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 60%;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
