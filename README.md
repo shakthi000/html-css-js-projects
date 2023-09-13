@@ -1,5 +1,2 @@
-# Beginner Javascript Projects
-
-These are my five simple projects in Javascript as a beginner.
-
-Feel free to use them and any edits are appreciated :)
+This repository contains a collection of frontend projects created by Shakthi Akshata. Each project is built using HTML, CSS, and JavaScript.
+Get inspired and connect with me!
